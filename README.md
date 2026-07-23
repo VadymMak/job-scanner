@@ -23,3 +23,7 @@ app/
   relevance/     — оценка через LLM (шаг 4)
   notify/        — Telegram-уведомления (шаг 5)
 ```
+
+## Overview
+
+Персональный агрегатор вакансий: RemoteOK → гибридная релевантность (pgvector + Postgres FTS, RRF) → LLM-оценка (OpenAI) → уведомление в Telegram. Python, SQLAlchemy, Alembic, aiogram. Self-hosted (systemd + Tailscale).
