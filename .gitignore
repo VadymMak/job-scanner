@@ -1,0 +1,31 @@
+# Виртуальное окружение
+.venv/
+
+# Python кеш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Переменные окружения (реальные секреты!)
+.env
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Версия Python (можно закоммитить, если хочешь зафиксировать версию)
+# .python-version
+
+# IDE
+.idea/
+.vscode/
+.env
+*.swp
+
+# AI-generated session docs (brain tool)
+docs/
